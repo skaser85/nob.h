@@ -1,6 +1,19 @@
 
 # Nob.h Cheatsheet 
 
+#### Table of Contents
+- [Miscellaneous][#Miscellaneous]
+- [Logging][#Logging]
+- [File Handling][#File-Handling]
+- [Dynamic Arrays][#Dynamic-Arrays]
+- [String Builder][#String-Builder]
+- [String Helpers][#String-Helpers]
+- [Process Handling][#Process-Handling]
+- [Nob Cmd][#Nob-Cmd]
+- [Complation Helpers][#Compilation-Helpers]
+- [Go Rebuild Urself Technology][#Go-Rebuild-Urself™-Technology]
+- [Nob String View][#Nob-String-View]
+
 ## Miscellaneous
 
 ### Macros
