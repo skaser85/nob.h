@@ -230,7 +230,7 @@ NOB_REBUILD_URSELF(binary_path, source_path)
 NOB_GO_REBUILD_URSELF(argc, agv)
 ```
 
-## Nob String View <a name="string-vew"></a>
+## Nob String View <a name="string-view"></a>
 
 ### TypeDefs/Defines
 ```c
