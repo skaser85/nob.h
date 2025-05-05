@@ -1,17 +1,17 @@
 # Nob.h Cheatsheet 
 
 #### Table of Contents
-- [Miscellaneous][#misc]
-- [Logging][#logging]
-- [File Handling][#file-handling]
-- [Dynamic Arrays][#dynamic-arrays]
-- [String Builder][#string-builder]
-- [String Helpers][#string-helpers]
-- [Process Handling][#process-handling]
-- [Nob Cmd][#nob-cmd]
-- [Complation Helpers][#compilation-helpers]
-- [Go Rebuild Urself Technology][#rebuild-urself]
-- [Nob String View][#string-view]
+- [Miscellaneous](#misc)
+- [Logging](#logging)
+- [File Handling](#file-handling)
+- [Dynamic Arrays](#dynamic-arrays)
+- [String Builder](#string-builder)
+- [String Helpers](#string-helpers)
+- [Process Handling](#process-handling)
+- [Nob Cmd](#nob-cmd)
+- [Complation Helpers](#compilation-helpers)
+- [Go Rebuild Urself Technology](#rebuild-urself)
+- [Nob String View](#string-view)
 
 ## Miscellaneous <a name="misc"></a>
 
