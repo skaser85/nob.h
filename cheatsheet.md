@@ -1,20 +1,19 @@
-
 # Nob.h Cheatsheet 
 
 #### Table of Contents
-- [Miscellaneous][#Miscellaneous]
-- [Logging][#Logging]
-- [File Handling][#File-Handling]
-- [Dynamic Arrays][#Dynamic-Arrays]
-- [String Builder][#String-Builder]
-- [String Helpers][#String-Helpers]
-- [Process Handling][#Process-Handling]
-- [Nob Cmd][#Nob-Cmd]
-- [Complation Helpers][#Compilation-Helpers]
-- [Go Rebuild Urself Technology][#Go-Rebuild-Urself™-Technology]
-- [Nob String View][#Nob-String-View]
+- [Miscellaneous][#misc]
+- [Logging][#logging]
+- [File Handling][#file-handling]
+- [Dynamic Arrays][#dynamic-arrays]
+- [String Builder][#string-builder]
+- [String Helpers][#string-helpers]
+- [Process Handling][#process-handling]
+- [Nob Cmd][#nob-cmd]
+- [Complation Helpers][#compilation-helpers]
+- [Go Rebuild Urself Technology][#rebuild-urself]
+- [Nob String View][#string-view]
 
-## Miscellaneous
+## Miscellaneous <a name="misc"></a>
 
 ### Macros
 ```c
@@ -26,7 +25,7 @@ NOB_ARRAY_LEN(array)
 NOB_ARRAY_GET(array, index)
 ```
 
-## Logging
+## Logging <a name="logging"></a>
 
 ### TypeDefs/Defines
 ```c
@@ -45,7 +44,7 @@ extern Nob_Log_Level nob_minimal_log_level;
 void nob_log(Nob_Log_Level level, const char *fmt, ...)
 ```
 
-## File Handling
+## File Handling <a name="file-handling"></a>
 
 ```c
 typedef struct {
@@ -77,7 +76,7 @@ const char *nob_get_current_dir_temp(void);
 bool nob_set_current_dir(const char *path);
 ```
 
-## Dynamic Arrays
+## Dynamic Arrays <a name="dynamic-arrays"></a>
 
 ### TypeDefs/Defines
 ```c
@@ -96,7 +95,7 @@ nob_da_remove_unordered(da, i)
 nob_da_foreach(Type, it, da)
 ```
 
-## String Builder
+## String Builder <a name="string-builder"></a>
 
 ### TypeDefs
 ```c
@@ -120,7 +119,7 @@ nob_sb_append_null(sb)
 nob_sb_free_(sb)
 ```
 
-## String Helpers
+## String Helpers <a name="string-helpers"></a>
 
 ### TypeDefs/Defines
 ```c
@@ -137,7 +136,7 @@ size_t nob_temp_save(void);
 void nob_temp_rewind(size_t checkpoint);
 ```
 
-## Process Handling
+## Process Handling <a name="process-handling"></a>
 
 ### TypeDefs/Defines
 ```c
@@ -171,7 +170,7 @@ bool nob_procs_wait_and_reset(Nob_Procs *procs);
 bool nob_procs_append_with_flush(Nob_Procs *procs, Nob_Proc proc, size_t max_procs_count);
 ```
 
-## Nob Cmd
+## Nob Cmd <a name="nob-cmd"></a>
 
 ### TypeDefs
 ```c
@@ -208,7 +207,7 @@ nob_cmd_free(cmd)
 nob_cmd_run_async(cmd)
 ```
 
-## Compliation Helpers
+## Compliation Helpers <a name="compilation-helpers"></a>
 
 ### Macros
 ```c
@@ -218,7 +217,7 @@ nob_cc_output(cmd, output_path)
 nob_cc_inputs(cmd, ...)
 ```
 
-## Go Rebuild Urself™ Technology
+## Go Rebuild Urself™ Technology <a name="rebuild-urself"></a>
 
 ### Functions
 ```c
@@ -231,7 +230,7 @@ NOB_REBUILD_URSELF(binary_path, source_path)
 NOB_GO_REBUILD_URSELF(argc, agv)
 ```
 
-## Nob String View
+## Nob String View <a name="nob-string-vew"></a>
 
 ### TypeDefs/Defines
 ```c
